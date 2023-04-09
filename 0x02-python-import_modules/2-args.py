@@ -8,6 +8,6 @@ if __name__ == "__main__":
     if (num_elmts - 1) == 0:
         print("{} arguements.".format(num_elmts - 1))
     else:
-        print("{} arguements:".format(num_elmts))
+        print("{} arguements:".format(num_elmts - 1))
         for i in range(1, num_elmts):
             print("{}: {}".format(i, sys.argv[i]))
