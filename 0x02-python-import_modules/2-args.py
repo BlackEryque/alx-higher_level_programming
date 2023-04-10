@@ -12,6 +12,6 @@ if __name__ == "__main__":
         for i in range(1, num_elmts):
             print("{}: {}".format(i, sys.argv[i]))  
     else:
-        print("{} arguments:".format(num_elmts))
+        print("{} arguments:".format(num_elmts - 1))
         for i in range(1, num_elmts):
             print("{}: {}".format(i, sys.argv[i]))
