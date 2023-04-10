@@ -6,12 +6,12 @@ if __name__ == "__main__":
     num_elmts = len(sys.argv)
 
     if (num_elmts - 1) == 0:
-        print("{} arguements.".format(num_elmts - 1))
+        print("{} arguments.".format(num_elmts - 1))
     elif (num_elmts - 1) == 1:
-        print("{} arguement:".format(num_elmts - 1))
+        print("{} argument:".format(num_elmts - 1))
         for i in range(1, num_elmts):
             print("{}: {}".format(i, sys.argv[i]))  
     else:
-        print("{} arguements:".format(num_elmts))
+        print("{} arguments:".format(num_elmts))
         for i in range(1, num_elmts):
             print("{}: {}".format(i, sys.argv[i]))
